@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foraged Studios | Outdoor Sculpture Artist</title>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "Person",
+						"@id": "#artist",
+						"name": "Foraged Studios",
+						"jobTitle": "Outdoor Sculpture Artist",
+						"description": "Outdoor sculpture artist creating site-specific installations from found natural materials.",
+						"email": "mailto:hello@foragedstudios.com",
+						"worksFor": {
+							"@type": "Organization",
+							"name": "Foraged Studios"
+						},
+						"creator": [
+							{
+								"@id": "#wind-ladder"
+							},
+							{
+								"@id": "#tide-nest"
+							},
+							{
+								"@id": "#root-halo"
+							},
+							{
+								"@id": "#stone-current"
+							}
+						]
+					},
+					{
+						"@type": "CollectionPage",
+						"@id": "#gallery-page",
+						"name": "Earthbound Forms Gallery",
+						"about": {
+							"@id": "#artist"
+						},
+						"hasPart": [
+							{
+								"@id": "#wind-ladder"
+							},
+							{
+								"@id": "#tide-nest"
+							},
+							{
+								"@id": "#root-halo"
+							},
+							{
+								"@id": "#stone-current"
+							}
+						]
+					},
+					{
+						"@type": "VisualArtwork",
+						"@id": "#wind-ladder",
+						"name": "Wind Ladder",
+						"artform": "Outdoor sculpture",
+						"material": ["Willow twigs", "Reed knots"],
+						"description": "Willow twigs and reed knots in open meadow grass.",
+						"creator": {
+							"@id": "#artist"
+						}
+					},
+					{
+						"@type": "VisualArtwork",
+						"@id": "#tide-nest",
+						"name": "Tide Nest",
+						"artform": "Outdoor sculpture",
+						"material": ["Driftwood", "Shells"],
+						"description": "Driftwood and shells arranged at low tide.",
+						"creator": {
+							"@id": "#artist"
+						}
+					},
+					{
+						"@type": "VisualArtwork",
+						"@id": "#root-halo",
+						"name": "Root Halo",
+						"artform": "Outdoor sculpture",
+						"material": ["Roots", "Fallen leaves"],
+						"description": "Interlocked roots and fallen leaves in oak woodland.",
+						"creator": {
+							"@id": "#artist"
+						}
+					},
+					{
+						"@type": "VisualArtwork",
+						"@id": "#stone-current",
+						"name": "Stone Current",
+						"artform": "Outdoor sculpture",
+						"material": ["River stones"],
+						"description": "River stones laid in a moving line along shallow water.",
+						"creator": {
+							"@id": "#artist"
+						}
+					}
+				]
+			}
+		</script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..800&family=Manrope:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<aside class="texture" aria-hidden="true"></aside>
+
+		<header class="site-header">
+			<section class="shell" aria-label="Site navigation container">
+				<nav class="nav" aria-label="Primary">
+					<p class="logo">Foraged Studios</p>
+					<ul class="nav-links">
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#about-me">About Me</a></li>
+						<li><a href="#upcoming-exhibitions">Exhibitions</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</section>
+		</header>
+
+		<main class="shell">
+			<section id="about-me" class="section full-height">
+				<article class="section-inner hero-layout">
+					<header class="hero-copy">
+						<p class="kicker">Welcome ! </p>
+						<h1>Monuments crafted from locally found natural materials</h1>
+						<p>
+							I am an outdoor sculpture artist weaving fallen leaves, interlocking 
+							fractured twigs, and balancing river stones using only gravity and water. 
+							Every installation is built by hand, documented in natural light, and left 
+							to return gently to the landscape.
+						</p>
+						<p class="cta-row">
+							<a class="btn btn-main" href="#gallery">View Gallery</a>
+							<a class="btn btn-ghost" href="#contact">Book a Commission</a>
+						</p>
+					</header>
+				</article>
+			</section>
+
+			<section id="gallery" class="section full-height">
+				<article class="section-inner">
+					<header class="section-head">
+						<section>
+							<p class="kicker">Gallery</p>
+							<h2>Selected outdoor works assembled from natural elements.</h2>
+						</section>
+					</header>
+
+					<section class="gallery" aria-label="Sculpture gallery">
+						<article class="piece piece-1">
+							<img
+								src="images/twigLady.jpeg"
+								alt="Twig-based outdoor sculpture arranged in meadow grass."
+								loading="lazy"
+							/>
+							<header class="piece-copy">
+								<strong>Sherwood Dryad</strong>
+							</header>
+						</article>
+						<article class="piece piece-2">
+							<img
+								src="images/driftwoodEagle.jpg"
+								alt="Driftwood sculpture titled Tide Nest arranged at low tide."
+								loading="lazy"
+							/>
+							<header class="piece-copy">
+								<strong>Tidal Aerie</strong>
+							</header>
+						</article>
+						<article class="piece piece-3">
+							<img
+								src="images/motherEarth.jpg"
+								alt="Stone sculpture arranged to resemble a horse shape in nature."
+								loading="lazy"
+							/>
+							<header class="piece-copy">
+								<strong>Te Fiti visits Montreal</strong>
+							</header>
+						</article>
+						<article class="piece piece-4">
+							<img
+								src="images/rockHorse.jpeg"
+								alt="Rock-based outdoor sculpture arranged in a natural setting."
+								loading="lazy"
+							/>
+							<header class="piece-copy">
+								<strong>Galloping Current</strong>
+							</header>
+						</article>
+					</section>
+				</article>
+			</section>
+
+			<section id="upcoming-exhibitions" class="section full-height">
+				<article class="section-inner">
+					<header class="section-head">
+						<section>
+							<p class="kicker">Upcoming Exhibitions</p>
+							<h2>Next places to experience these works in person.</h2>
+						</section>
+					</header>
+
+					<section class="about-grid" aria-label="Upcoming exhibition schedule">
+						<article class="card">
+							<h3>June 14-22</h3>
+							<p>
+								Forest Spiral Residency, Cedar Ridge Arboretum.
+							</p>
+						</article>
+						<article class="card">
+							<h3>July 9</h3>
+							<p>
+								Public installation talk at Coastal Ecology Center.
+							</p>
+						</article>
+						<article class="card">
+							<h3>August 1-15</h3>
+							<p>
+								Stone and Leaf Trail series, Greenfield Sculpture Walk.
+							</p>
+						</article>
+					</section>
+				</article>
+			</section>
+
+			<section id="contact" class="section full-height">
+				<article class="section-inner contact">
+					<header class="contact-content">
+						<p class="kicker">Contact</p>
+						<h2>Interested in a site-specific installation?</h2>
+						<p>
+							Commissions are available for gardens, retreats, cultural events,
+							and environmental programs.
+						</p>
+					</header>
+					<a href="mailto:hello@earthboundforms.com">hello@earthboundforms.com</a>
+				</article>
+			</section>
+		</main>
+
+		<footer class="shell">
+			@Foraged Studios. Sculptures made from local natural materials.
+		</footer>
+	</body>
+</html>
+
