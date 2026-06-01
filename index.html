@@ -117,7 +117,10 @@
 		<header class="site-header">
 			<section class="shell" aria-label="Site navigation container">
 				<nav class="nav" aria-label="Primary">
-					<p class="logo">Foraged Studios</p>
+					<div class="brand">
+						<a class="logo-mark" href="#about-me" aria-label="Back to top">FS</a>
+						<p class="logo"><span class="logo-text">Foraged Studios</span></p>
+					</div>
 					<ul class="nav-links">
 						<li><a href="#gallery">Gallery</a></li>
 						<li><a href="#about-me">About Me</a></li>
@@ -133,8 +136,8 @@
 				<article class="section-inner hero-layout">
 					<header class="hero-copy">
 						<p class="kicker">Welcome ! </p>
-						<h1>Monuments crafted from locally found natural materials</h1>
-						<p>
+						<h1>Monuments crafted from locally found natural materials.</h1>
+						<p class="intro">
 							I am an outdoor sculpture artist weaving fallen leaves, interlocking 
 							fractured twigs, and balancing river stones using only gravity and water. 
 							Every installation is built by hand, documented in natural light, and left 
@@ -236,21 +239,26 @@
 
 			<section id="contact" class="section full-height">
 				<article class="section-inner contact">
-					<header class="contact-content">
-						<p class="kicker">Contact</p>
-						<h2>Interested in a site-specific installation?</h2>
-						<p>
-							Commissions are available for gardens, retreats, cultural events,
-							and environmental programs.
-						</p>
+					<header class="section-head">
+						<section class="mail-contact">
+							<p class="kicker">Contact</p>
+							<h2>Interested in a site-specific installation?</h2>
+							<p>
+								Commissions are available for gardens, retreats, cultural events,
+								and environmental programs.
+							</p>
+						</section>	
 					</header>
-					<a href="mailto:hello@earthboundforms.com">hello@earthboundforms.com</a>
+					<section class="email">
+						<p>E-mail us:</p>
+						<a class="btn btn-mail" href="mailto:hello@earthboundforms.com" aria-label="Mail us at hello@earthboundforms.com">hello@earthboundforms.com</a>
+					</section>
 				</article>
 			</section>
 		</main>
 
 		<footer class="shell">
-			@Foraged Studios. Sculptures made from local natural materials.
+			<p class="kicker">@Foraged Studios. Sculptures made from local natural materials.</p>
 		</footer>
 	</body>
 </html>
